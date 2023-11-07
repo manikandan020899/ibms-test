@@ -8,6 +8,13 @@
       "schematics": {
         "@schematics/angular:component": {
           "style": "scss"
+          
+               "serve": {
+            "options": {
+                "port": 4200
+            }
+        }
+          
         }
       },
       "root": "",
